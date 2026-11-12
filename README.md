@@ -7,7 +7,7 @@ Official Documentation: [https://docs.cgpoly.io](https://docs.cgpoly.io/lip-sync
 A **Blender addon** for automatic lip-syncing based on audio input.  
 Cross-platform (Windows, macOS, Linux), works **out of the box** with **~25 languages**.
 
-⚡ **Just install it from Blender’s Add-ons panel and you’re ready to go!**
+⚡ **Download the release zip, drag it into Blender, and you’re ready to go!** See [Installation](#-installation).
 ## Video Demo
 
 https://github.com/user-attachments/assets/cb90ea7b-02fc-4ca1-b19f-631024cd79cd
@@ -31,10 +31,11 @@ Wall Art 06 by Jarlan Perez [CC-BY](https://creativecommons.org/licenses/by/3.0/
 
 ## 📦 Installation
 
-1. Open Blender.
-2. Go to **Edit > Preferences > Get Extensions**.
-3. Look for **Lip Sync**
-4. Install it – done!
+1. Go to the [Releases page](https://github.com/manojailuriatamgo/lip-sync-blender5/releases) and download the latest `lip_sync_py313_*.zip` file. Don't unzip it.
+2. Open Blender (5.x).
+3. Drag the downloaded `.zip` file onto the Blender window.
+   - Alternatively, go to **Edit > Preferences > Get Extensions**, click the ▼ menu at the top right, choose **Install from Disk…**, and select the zip.
+4. Enable **Lip Sync for Blender 5.x** when Blender asks, and you're done.
 
 When you select a Language Model for the first time, Model file is downloaded and cached for future uses  (~40Mo, depending on the language).
 
