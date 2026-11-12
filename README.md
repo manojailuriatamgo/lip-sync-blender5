@@ -1,5 +1,7 @@
 # 🗣️ Blender Lip Sync Addon
 
+> **Modified fork for Blender 5.x (Python 3.13).** This fork adds Python 3.13 wheels so the add-on loads in Blender 5.x. It is based on [Charley3d/lip-sync](https://github.com/Charley3d/lip-sync) by Charley 3D, and is licensed under GPL-3.0-or-later like the original.
+
 Official Documentation: [https://docs.cgpoly.io](https://docs.cgpoly.io/lip-sync-documentation)
 
 A **Blender addon** for automatic lip-syncing based on audio input.  

@@ -60,7 +60,7 @@ jobs:
         # Upload the full release of Blender Add-on
         - name: Clean platform-specific archives
           run: |
-            for zipfile in iocgpoly_lip_sync-*-*.zip; do
+            for zipfile in lip_sync_py313-*-*.zip; do
               echo "Examining $zipfile"
               unzip -l "$zipfile" | grep -i "archives"
 

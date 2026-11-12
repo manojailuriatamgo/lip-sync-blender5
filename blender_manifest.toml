@@ -1,9 +1,9 @@
 schema_version = "1.0.0"
-id = "iocgpoly_lip_sync"
+id = "lip_sync_py313"
 version = "1.0.7"
-name = "Lip Sync"
+name = "Lip Sync for Blender 5.x"
 tagline = "Automatic lip sync for your Blender models"
-maintainer = "Charley 3D <charley@cgpoly.fr>"
+maintainer = "Lip Sync Maintainers"
 type = "add-on"
 website = "https://github.com/Charley3d/lip-sync"
 tags = ["Animation", "Sequencer"]
