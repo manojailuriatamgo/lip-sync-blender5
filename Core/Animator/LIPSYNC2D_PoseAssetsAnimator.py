@@ -3,6 +3,7 @@ from typing import Iterator, Literal, cast
 import bpy
 
 from .LIPSYNC2D_ShapeKeysAnimator import LIPSYNC2D_ShapeKeysAnimator
+from .LIPSYNC2D_FCurves import find_fcurve
 
 
 from ..phoneme_to_viseme import (
@@ -178,8 +179,8 @@ class LIPSYNC2D_PoseAssetsAnimator:
         :type interpolation: Literal["LINEAR"]
         """
         for fcurve in self.channelbag.fcurves:
-            pose_asset_fcurve = pose_action.fcurves.find(
-                fcurve.data_path, index=fcurve.array_index
+            pose_asset_fcurve = find_fcurve(
+                pose_action, pose_action.slots[0], fcurve.data_path, fcurve.array_index
             )
             if pose_asset_fcurve is None:
                 continue
