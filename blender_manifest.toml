@@ -1,6 +1,6 @@
 schema_version = "1.0.0"
 id = "lip_sync_py313"
-version = "1.0.7"
+version = "1.0.8"
 name = "Lip Sync for Blender 5.x"
 tagline = "Automatic lip sync for your Blender models"
 maintainer = "Lip Sync Maintainers"
