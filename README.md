@@ -26,7 +26,7 @@ Wall Art 06 by Jarlan Perez [CC-BY](https://creativecommons.org/licenses/by/3.0/
 - Interpolates between Shape Key to give natural lips motion
 - 🖼️ Projects a viseme **spritesheet** onto your character’s face (one spritesheet is shipped with the add-on, but you can use your own)
 - 🧠 Uses offline speech recognition (Vosk + Phonemizer + eSpeak)
-- 🖥️ Fully supported on Windows, macOS and Linux
+- 🖥️ Tested on Windows and Linux in this fork (macOS is unverified here)
 - 🔜 Future upgrade: **Pose-based animation** for facial rigs
 
 ## 📦 Installation
@@ -62,8 +62,9 @@ When you select a Language Model for the first time, Model file is downloaded an
 
 ## 🧩 Compatibility
 
-- Blender **4.4+**
-- Works on **Windows**, **macOS**, and **Linux**
+- Blender **5.1.2**: tested on **Windows** and **Linux**
+- Blender **4.4 and 4.5**: uses the bundled Python 3.11 wheels; not tested in this fork
+- **macOS**: not tested in this fork; it's supported by the original project, but unverified here
 
 ## 🤝 Contribute
 
